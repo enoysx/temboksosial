@@ -1,0 +1,348 @@
+/*  google fonts 
+    Koulen & poopins*/
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+/* Root */
+
+:root {
+    /* fonts */
+    --koulen: 'Koulen', cursive;
+    --poopins: 'poppins', sans-serif;
+    /* font color */
+    --font-primary-color: #000;
+    --font-secondary-color: #CCE0DE;
+    /* card color */
+    --card1-color: #CCE0DE;
+    --card2-color: #F5F4F3;
+    --card3-color: #FFD6AD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--koulen);
+    overflow: auto;
+}
+
+.kutip {
+    color: #FB554C;
+}
+
+.navbar .navbar-brand {
+    font-family: var(--koulen);
+    font-size: 24px;
+}
+
+.navbar-nav .nav-item {
+    font-family: var(--poopins);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 14px;
+}
+
+.navbar-btn-custom {
+    font-family: var(--poopins);
+    font-size: 16px;
+}
+
+.navbar-btn-custom .btn-signin {
+    width: 100px;
+    height: 35px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 99px;
+}
+
+
+/* Hero Section */
+
+h1 {
+    font-size: 64px;
+}
+
+.heading-hero {
+    color: var(--font-secondary-color);
+}
+
+.btn-hero-share {
+    padding: 8px 16px;
+    font-family: var(--poopins);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--font-primary-color);
+    background-color: var(--card1-color);
+    border: none;
+    border-radius: 99px;
+}
+
+.btn-hero-share a {
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--poopins);
+    color: var(--font-primary-color);
+}
+
+.wrapper-hero-image {
+    height: 500px;
+    background: url(/assets/images/illustration.png);
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero .card {
+    border-radius: 30px;
+}
+
+#hero .card-body {
+    margin: 0;
+    padding: 55px 20px;
+}
+
+#hero .card .card-title {
+    font-size: 35px;
+    line-height: 40px;
+}
+
+#hero .card .card-text {
+    padding-top: 93px;
+    font-size: 20px;
+    color: #FB554C;
+}
+
+.btn-notif {
+    font-family: var(--poopins);
+    top: 90%;
+    padding: 8px 16px;
+    background-color: #fff;
+    border: none;
+    border-radius: 99px;
+}
+
+.btn-notif a {
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--poopins);
+    color: var(--font-primary-color);
+}
+
+.tagline {
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-family: var(--poopins);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+/* Introduce Section */
+
+#intro .card {
+    padding: 10px;
+    background-color: var(--card1-color);
+    border: none;
+    border-radius: 20px;
+}
+
+#intro .card-title {
+    font-size: 30px;
+}
+
+#intro p {
+    font-family: var(--poopins);
+    text-align: left;
+}
+
+.card-jobs {
+    font-family: var(--poopins);
+    font-size: 14px;
+}
+
+
+/* article section */
+
+.wrapper-article-heading {
+    margin-top: 80px;
+}
+
+.heading-article {
+    color: var(--font-secondary-color);
+}
+
+.btn-view {
+    font-family: var(--poopins);
+    top: 90%;
+    padding: 8px 16px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 99px;
+}
+
+.btn-view a {
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--poopins);
+    color: var(--font-primary-color);
+}
+
+.article-control-icon {
+    padding: 10px 20px;
+}
+
+.article-text {
+    font-family: var(--poopins);
+    font-size: 14px;
+}
+
+#article .card-date {
+    font-size: 20px;
+    color: #FB554C;
+}
+
+#article .card {
+    background-color: var(--card2-color);
+    border: none;
+    border-radius: 20px;
+}
+
+#article .card-title {
+    font-size: 25px;
+}
+
+#article h5 {
+    font-size: 18px;
+}
+
+#article p {
+    font-family: var(--poopins);
+}
+
+.card-profile {
+    padding-top: 4rem;
+}
+
+.card-jobs {
+    font-family: var(--poopins);
+    font-size: 14px;
+}
+
+#article .card a:focus {
+    border: 2px solid #000;
+}
+
+
+/* Testimoni Section */
+
+#testimoni {
+    height: 500px;
+    background-color: #F5F4F3;
+}
+
+.wrapper-testimoni {
+    margin-top: 10rem;
+    padding-top: 6.25rem;
+}
+
+#testimoni .card {
+    padding: 10px;
+    background-color: var(--card3-color);
+    border: none;
+    border-radius: 20px;
+}
+
+#testimoni .card-title {
+    font-size: 30px;
+}
+
+#testimoni p {
+    font-family: var(--poopins);
+    text-align: left;
+}
+
+.card-jobs {
+    font-family: var(--poopins);
+    font-size: 14px;
+}
+
+
+/* Footer */
+
+.wrapper-footer {
+    padding-top: 10rem;
+}
+
+.footer-text {
+    font-family: var(--poopins);
+    font-size: 16px;
+}
+
+.btn-create-new {
+    margin-top: 11rem;
+}
+
+.btn-create-new a {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    padding: 8px 16px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 99px;
+    font-family: var(--poopins);
+    box-shadow: 2px 2px 24px rgba(0, 0, 0, 0.25);
+    transition: .3s ease-in-out all;
+}
+
+.btn-create-new a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-menu-title {
+    font-family: var(--poopins);
+    font-size: 18px;
+    color: #4E4F51;
+}
+
+.footer-menu {
+    margin: 25px 0 0 0;
+    padding: 0;
+    font-family: var(--poopins);
+    font-size: 16px;
+}
+
+.footer-item {
+    list-style: none;
+    padding: 20px 0;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #000;
+    transition: .4s ease-in-out all;
+}
+
+.footer-link:hover {
+    padding: 5px 5px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* Copyright Section */
+
+#copyright {
+    margin-top: 3.5em;
+    height: 50px;
+    background-color: var(--card1-color);
+    font-family: var(--poopins);
+    font-size: 12px;
+}
