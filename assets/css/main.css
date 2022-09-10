@@ -34,12 +34,15 @@ body {
     color: #FB554C;
 }
 
+
+/* navbar */
+
 .navbar .navbar-brand {
     font-family: var(--koulen);
     font-size: 24px;
 }
 
-.navbar-nav .nav-item {
+.navbar .nav-item {
     font-family: var(--poopins);
     font-size: 16px;
     font-weight: 400;
