@@ -94,7 +94,7 @@ h1 {
 
 .wrapper-hero-image {
     height: 500px;
-    background: url(/assets/images/illustration.png);
+    background: url(./assets/images/illustration.png);
     background-color: #000;
     background-repeat: no-repeat;
     background-size: cover;
